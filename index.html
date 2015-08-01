@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pBoost</title>
+</head>
+<body>
+    <div id="container"></div>
+
+    <script src="vendor/r.js"></script>
+    <script src="src/config.js"></script>
+    <script>
+        require(['app'], function(App) {
+            var elContainer = document.getElementById('container');
+            var app = new App(elContainer);
+
+            app.start(elContainer);
+        });
+    </script>
+</body>
+</html>

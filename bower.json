@@ -1,0 +1,27 @@
+{
+  "name": "pBoost",
+  "version": "0.0.0",
+  "authors": [
+    "Pavel <pavels.staseluns@gmail.com>"
+  ],
+  "description": "Productivity increase application",
+  "main": "main",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "productivity"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.13.3",
+    "flux": "~2.0.2"
+  }
+}
