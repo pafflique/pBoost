@@ -1,7 +1,7 @@
 ///<reference path="../../dts/react.d.ts" />
 
 import React = require('react');
-import View = require('./View');
+import View = require('./view');
 
 class Factory {
     public static get<P>(Component:React.ComponentClass<P>, props?:P) {

@@ -1,3 +1,5 @@
 .idea
 build
 bower_components
+src/**/*.js
+src/**/*.js.map

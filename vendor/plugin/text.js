@@ -172,7 +172,7 @@ define(['module'], function (module) {
             var parsed = text.parseName(name),
                 nonStripName = parsed.moduleName +
                     (parsed.ext ? '.' + parsed.ext : ''),
-                url = req.toUrl(nonStripName).replace(config.baseUrl, config.text.baseUrl),
+                url = req.toUrl(nonStripName),
                 useXhr = (masterConfig.useXhr) ||
                          text.useXhr;
             // Do not load if it is an empty: url

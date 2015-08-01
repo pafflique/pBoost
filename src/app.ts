@@ -7,7 +7,7 @@ class App {
         var factory = Factory.get(Task, {name: 'World'});
         React.render(factory, elContainer);
     }
-}
 
+}
 
 export = App;
